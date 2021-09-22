@@ -1,0 +1,24 @@
+body{
+    margin:10rem;
+    padding-top: 3rem;
+    padding-bottom:3rem ;
+    background-color: #EAE7DC;
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar{
+    text-transform:uppercase;
+    padding:2rem;
+}
+
+
+main{
+    color: #EA4a4f;
+    
+    
+}
+.btn{
+    margin-right:4em;
+    padding:1em;
+    width:14em;
+}
