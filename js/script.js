@@ -4,7 +4,7 @@
 $(document).ready(function () {
   new WOW().init()
   // for the hero part of the page
-  $('.hero-content').addClass('wow')
+  $('.hero-content').addClass(' animated wow bounce ')
   $('.wow').addClass('slideInUp')
   $('.projects').css('margin-bottom', '20px')
   $('.target').css('margin-bottom', '20px')
