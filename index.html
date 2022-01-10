@@ -9,8 +9,12 @@
   <link rel="stylesheet" href="css/bootstrap.css" />
   <!--for bootstrap-->
   <link rel="stylesheet" href="./css/site.css" />
+  <!--- custom css-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
   <!--for the icons-->
+  <!-- animate on scroll library-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!--google fonts-->
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet" />
 </head>
 
@@ -53,11 +57,11 @@
   <main class="container-fluid">
     <!--home page-->
 
-    <section class="hero overlay-img" id="home-page">
-      <div class="row" style="margin-top: 200px;">
+    <section class="hero" id="home-page">
+      <div class="row" style="margin-top: 200px;" data-aos="fade-up">
         <!-- display property is used to hide icons on small screens-->
 
-        <div class="col-md-1 d-none d-lg-block align-self-start">
+        <div class="col-md-1 d-none d-lg-block align-self-start " data-aos="fade-right" data-aos-duration="3000">
           <ul class="icons">
             <!-- bootstrap icons-->
             <li>
@@ -78,24 +82,24 @@
           </ul>
         </div>
         <!--hero section-->
-        <div class="col-md-11 col-xs-6 ">
+        <div class="col-md-11 col-xs-6 " data-aos="fade-left">
 
           <div class="hero-content">
             <h2 class="text-capitalise text-center strong display-5">
               HEY, My Name is Chizoba Chukwuoma
             </h2>
 
-            <blockquote class="blockquote" style="margin-top: 20px;">
+            <blockquote class="blockquote">
 
-              <p class="text-center" style="margin-top: 40px;">
+              <p class="text-center" style="margin-top:60px;">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 In odio augue, consequat non arcu ac, volutpat luctus risus.
               </p>
             </blockquote>
 
 
-            <div class="text-center" style="margin:60px; position:relative;">
-              <a class="btn btn-primary btn-lg active" id="main-btn" role="button" href="#" style="width:100%;">
+            <div class=" text-center" style="margin:60px; position:relative;">
+              <a class="btn btn-primary btn-lg active" id="main-btn" role="button" href="#">
                 Projects
               </a>
             </div>
@@ -105,6 +109,7 @@
 
 
         </div>
+      </div>
 
 
     </section>
@@ -149,34 +154,34 @@
 
           </div>
         </div>
-      
 
-      <!--Skills-->
-      
+
+        <!--Skills-->
+
         <div class="col-md-6 col-10 target">
           <div class="card border-light">
             <div class="card-body">
               <h3 class="card-title">My skills</h3>
-                <div class="row">
-                  <div class="col-md-12 col-xs-10">
-                    <div class="btn-group d-inline-block">
-                      <a class="btn btn-sm btn-space btn-primary btn-space" role="button" href="#">HTML
-                      </a>
-                      <a class="btn btn-sm btn-primary btn-space" role="button" href="#">CSS
-                      </a>
-                      <a class="btn btn-sm btn-primary btn-space" role="button" href="#">Javascript
-                      </a>
-                      <a class="btn btn-sm btn-primary btn-space" role="button" href="#">
-                        NodeJS</a>
-                      <a class="btn btn-sm btn-primary btn-space" role="button" href="#">
-                        Jquery</a>
-                        <a class="btn btn-sm btn-primary btn-space" role="button" href="#">Python
-                        </a>
+              <div class="row">
+                <div class="col-md-12 col-xs-10">
+                  <div class="btn-group d-inline-block">
+                    <a class="btn btn-sm btn-space btn-primary btn-space" role="button" href="#">HTML
+                    </a>
+                    <a class="btn btn-sm btn-primary btn-space" role="button" href="#">CSS
+                    </a>
+                    <a class="btn btn-sm btn-primary btn-space" role="button" href="#">Javascript
+                    </a>
+                    <a class="btn btn-sm btn-primary btn-space" role="button" href="#">
+                      NodeJS</a>
+                    <a class="btn btn-sm btn-primary btn-space" role="button" href="#">
+                      Jquery</a>
+                    <a class="btn btn-sm btn-primary btn-space" role="button" href="#">Python
+                    </a>
 
-                    </div>
                   </div>
-                  <div class="col-md-12 col-xs-10">
-                   <div class="btn-group d-inline-block">
+                </div>
+                <div class="col-md-12 col-xs-10">
+                  <div class="btn-group d-inline-block">
                     <a class="btn btn-sm btn-primary btn-space" role="button" href="#">
                       Solidity</a>
                     <a class="btn btn-sm btn-primary btn-space" role="button" href="#">
@@ -191,19 +196,19 @@
                     </a>
                     <a class="btn btn-sm btn-primary btn-space" role="button" href="#">React
                     </a>
-                   </div>
-                    
                   </div>
+
                 </div>
-              
-              
-  
+              </div>
+
+
+
             </div>
           </div>
-  
+
         </div>
       </div>
-  
+
 
     </section>
 
@@ -224,7 +229,7 @@
           <!-- project 1-->
           <div class="col-md-4 projects">
             <div class='card border-secondary'>
-              <img src="images/lee-campbell-8yb4_dqzkOw-unsplash.jpg" class="card-img-top"
+              <img src="images/sitepics/JPEG/lee-campbell-8yb4_dqzkOw-unsplash.jpg" class="card-img-top"
                 style="max-width:100%; height: auto;">
               <div class="card-body  bg-transparent">
                 <h3 class="card-title">
@@ -246,7 +251,7 @@
           <!--project 2-->
           <div class="col-md-4 projects">
             <div class='card border-secondary'>
-              <img src="images/lee-campbell-8yb4_dqzkOw-unsplash.jpg" class="card-img-top"
+              <img src="images/sitepics/JPEG/lee-campbell-8yb4_dqzkOw-unsplash.jpg" class="card-img-top"
                 style="max-width:100%; height: auto;">
               <div class="card-body bg-transparent">
                 <h3 class="card-title">
@@ -268,7 +273,7 @@
           <!--project 3-->
           <div class="col-md-4 projects">
             <div class='card border-secondary'>
-              <img src="images/lee-campbell-8yb4_dqzkOw-unsplash.jpg" class="card-img-top"
+              <img src="images/sitepics/JPEG/lee-campbell-8yb4_dqzkOw-unsplash.jpg" class="card-img-top"
                 style="max-width:100%; height: auto;">
               <div class="card-body bg-transparent">
                 <h3 class="card-title">
@@ -290,7 +295,7 @@
           <!--project 4-->
           <div class="col-md-4 projects">
             <div class='card border-secondary'>
-              <img src="images/lee-campbell-8yb4_dqzkOw-unsplash.jpg" class="card-img-top"
+              <img src="images/sitepics/JPEG/lee-campbell-8yb4_dqzkOw-unsplash.jpg" class="card-img-top"
                 style="max-width:100%; height: auto;">
               <div class="card-body bg-transparent">
                 <h3 class="card-title">
@@ -312,7 +317,7 @@
           <!--project 5-->
           <div class="col-md-4  col-12 projects">
             <div class='card border-secondary'>
-              <img src="images/lee-campbell-8yb4_dqzkOw-unsplash.jpg" class="card-img-top"
+              <img src="images/sitepics/JPEG/lee-campbell-8yb4_dqzkOw-unsplash.jpg" class="card-img-top"
                 style="max-width:100%; height: auto;">
               <div class="card-body bg-transparent">
                 <h3 class="card-title">
@@ -334,7 +339,7 @@
           <!--project 6-->
           <div class="col-md-4 col-12 projects">
             <div class='card border-secondary'>
-              <img src="images/lee-campbell-8yb4_dqzkOw-unsplash.jpg" class="card-img-top"
+              <img src="images/sitepics/JPEG/lee-campbell-8yb4_dqzkOw-unsplash.jpg" class="card-img-top"
                 style="max-width:100%; height: auto;">
               <div class="card-body bg-transparent">
                 <h3 class="card-title">
@@ -377,29 +382,36 @@
       <div class="col-10 col-md-6">
         <div class="card bg-primary">
           <div class="card-body ">
-            <form style="width:100%;">
+            <form style="width:100%;" id='form'>
               <!--Name-->
               <div class="form-group">
-                <label for="Name"> Name</label>
-                <input type="text" class="form-control" id="Name" placeholder="Enter your Name">
+                <label for="firstname"> first Name</label>
+                <input type="text" class="form-control" id="firstname" placeholder="Enter your Name" required>
+
               </div>
+              <div class="form-group" style="display: d-inline-block">
+                <label for="lastname"> last Name</label>
+                <input type="text" class="form-control" id="lastname" placeholder="Enter your name" required>
+              </div>
+
               <!--Email-->
               <div class="form-group">
                 <label for="email"> Email</label>
-                <input type="email" id="p-email" class="form-control" placeholder="Enter your email,">
+                <input type="email" id="p-email" class="form-control" placeholder="Enter your email" required
+                  minlength="8">
 
               </div>
               <!--Message-->
               <div class="form-group">
                 <label for="message"> Message</label>
-                <textarea class="form-control" name="Message" id="p-message" rows="3" placeholder="
-                      Enter your Message">
-
+                <textarea class="form-control" name="Message" id="p-message" rows="3"
+                  placeholder="write about your project" required minlength="10">
                       </textarea>
+
               </div>
           </div>
-          <div class="button" style="margin-bottom: 50px;">
-            <a class="btn btn-primary btn-lg"> Submit</a>
+          <div class="button text-center" style="margin-bottom: 50px;">
+            <input class="btn btn-primary" type="submit" value="submit" id='submit'>
           </div>
 
 
@@ -414,12 +426,11 @@
   </main>
   <section class="page-footer">
     <!--footer-->
-
-    <footer class="page-footer font-small pt-4">
+    <footer class="page-footer font-small" style="padding-top:60px;">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-6 col-10">
-            <h5 class="text-capitalise"> Chukwuoma chizoba</h5>
+          <div class="col-md-6 col-xs-12">
+            <h3 class="text-capitalise"> Chukwuoma chizoba</h3>
             <blockquote class="block-quote">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
@@ -427,7 +438,7 @@
               </p>
             </blockquote>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 col-xs-12">
             <h5 class="font-weight-bold  text-capitalise"> social</h5>
             <p>
               <i class="bi bi-twitter"></i>
@@ -436,25 +447,38 @@
               <i class="bi bi-github"></i>
               <i class="bi bi-instagram"></i>
             </p>
+            
+              <div class="w-100">
+                <p class="copy text-center">
+                  &copy;2021 Chizoba Chukwuoma
+                </p>
+              </div>
+            
           </div>
-          <div class="row">
-            <div class="col-12">
-              <p class="copy text-center">
-                &copy;2021 Chizoba Chukwuoma
-              </p>
-            </div>
-
-          </div>
-
         </div>
+
+       
+
+       
+
       </div>
 
     </footer>
+
+    
   </section>
 
 </body>
+<!-- library for  bootstrap js-->
 <script src="js/bootstrap.bundle.min.js"></script>
+<!--Jquery-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!--form validation plugin-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+<script defer src="./js/formvalidation.js"></script>
+<!-- aos library-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!--custom js-->
 <script src="./js/script.js"></script>
 
 </html>
